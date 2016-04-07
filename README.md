@@ -4,7 +4,7 @@
 
 ## Synopsis
 
-**ViosMaps** is a humble development aimed to create and render **vector maps divided into regions** (created in the **SVG format**), setting metadata and managing interactions in an easy way. 
+**ViosMaps** is a development aimed to help you create and render **vector maps divided into regions** (created in the **SVG format**), setting metadata and managing the interactions in an easy way. 
 
 ## Real Examples
 
@@ -24,7 +24,8 @@
 
 The project started as a humble attempt to render and manage interactions with each region or province for the maps of Italy and Argentina. 
 
-The idea behind opensourcing **ViosMaps** is mainly to be able to teamwork with developers around the world to share ideas and knowledge, generalize the codebase (by better modularization) and add many great functionalities we can discuss. It would be very nice if we also write good documentation encouraging more developers to use this resource as a library  for their own projects.
+The idea behind opensourcing **ViosMaps** is mainly to be able to teamwork with developers around the world to share ideas and knowledge, generalize the codebase (by better modularization) and to add many great functionalities we can discuss about. It would be very nice if we also write good documentation encouraging more developers to use this resource as a library for their own projects.
+
 
 ## Contributors
 
