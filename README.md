@@ -4,9 +4,9 @@
 
 ## Synopsis
 
-**ViosMaps** is a humble attempt to render vector interactive maps based on SVG files. 
+**ViosMaps** is a humble development aimed to the creation and rendering of vector maps divided into regions (created using the **SVG language**), setting metadata and managing interactions in an easy way. 
 
-## Examples
+## Real Examples
 
 ### [Interactive Map of Argentina (click to play video)](http://www.youtube.com/watch?v=prYIRGF3WjI)
 
@@ -22,7 +22,9 @@
 
 ## Motivation
 
-The project started just to render and manage interactions for the maps of Italy and Argentina, but the idea behind opensourcing this code is to teamwork with other developers and creative people around the world to generalize this code base and add great functionalities. It would be very nice if we also write good documentation to encourage others to use this resource as a library in their own projects.
+The project started as a humble attempt to render and manage interactions with each region or province for the maps of Italy and Argentina. 
+
+The idea behind opensourcing **ViosMaps** is to teamwork with developers around the world to share ideas and knowledge, generalize the codebase (by better modularization) and add many great functionalities we can discuss. It would be very nice if we also write good documentation encouraging more developers to use this resource as a library  for their own projects.
 
 ## Contributors
 
