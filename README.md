@@ -4,7 +4,7 @@
 
 ## Synopsis
 
-**ViosMaps** is a humble development aimed to the creation and rendering of vector maps divided into regions (created using the **SVG language**), setting metadata and managing interactions in an easy way. 
+**ViosMaps** is a humble development aimed to create and render **vector maps divided into regions** (created in the **SVG format**), setting metadata and managing interactions in an easy way. 
 
 ## Real Examples
 
