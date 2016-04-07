@@ -28,6 +28,7 @@ The project started just to render and manage interactions for the maps of Italy
 
 * [Gustavo Adrián Salvini](https://linkedin.com/in/gustavosalvini) - [@guspatagonico](http://twitter.com/guspatagonico)
 * [Darío Ruellan](http://linkedin.com/in/darioruellan) - [@druellan](http://twitter.com/druellan)
+
 ## License
 
 Available under an [Apache 2 license](https://github.com/adobe-webplatform/Snap.svg/blob/master/LICENSE) which means it’s completely open-source, and completely free.
