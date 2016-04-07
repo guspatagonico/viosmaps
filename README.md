@@ -22,7 +22,7 @@
 
 ## Motivation
 
-The project started just to render and manage interactions for the maps of Italy and Argentina, but the idea behind opensourcing this code is to generalize and better modularize it, and in the best case, to add functionalities and write a good documentation to encourage others to use it.
+The project started just to render and manage interactions for the maps of Italy and Argentina, but the idea behind opensourcing this code is to teamwork with other developers and creative people around the world to generalize this code base and add great functionalities. It would be very nice if we also write good documentation to encourage others to use this resource as a library in their own projects.
 
 ## Contributors
 
