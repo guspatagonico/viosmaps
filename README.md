@@ -1,10 +1,10 @@
-![viosMaps](media/viosmaps-complete-logo.png)
+![ViosMaps](media/viosmaps-complete-logo.png)
 
-# viosMaps - Vector Interactive OpenSource Maps
+# ViosMaps - Vector Interactive OpenSource Maps
 
 ## Synopsis
 
-**viosMaps** is a humble attempt to render vector interactive maps based on SVG files. 
+**ViosMaps** is a humble attempt to render vector interactive maps based on SVG files. 
 
 ## Examples
 
