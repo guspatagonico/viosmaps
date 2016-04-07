@@ -8,11 +8,11 @@
 
 ## Examples
 
-### ![Interactive Map of Argentina (click to play video)](http://www.youtube.com/watch?v=prYIRGF3WjI "Interactive Map of Argentina")
+### [Interactive Map of Argentina (click to play video)](http://www.youtube.com/watch?v=prYIRGF3WjI)
 
 [![Interactive Map of Argentina](http://img.youtube.com/vi/prYIRGF3WjI/0.jpg)](http://www.youtube.com/watch?v=prYIRGF3WjI "Interactive Map of Argentina")
 
-### ![Interactive Map of Italy (click to play video)](http://www.youtube.com/watch?v=CGg1kKw0Qnk "Interactive Map of Italy")
+### [Interactive Map of Italy (click to play video)](http://www.youtube.com/watch?v=CGg1kKw0Qnk)
 
 [![Interactive Map of Italy](http://img.youtube.com/vi/CGg1kKw0Qnk/0.jpg)](http://www.youtube.com/watch?v=CGg1kKw0Qnk "Interactive Map of Italy")
 
