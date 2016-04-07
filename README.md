@@ -1,4 +1,4 @@
-![ViosMaps](media/viosmaps-complete-logo.png)
+![ViosMaps](media/logo-viosmaps-complete.png)
 
 # ViosMaps - Vector Interactive OpenSource Maps
 
