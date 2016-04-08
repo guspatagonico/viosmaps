@@ -1,7 +1,7 @@
 /**
- * Italia Interactive Map
+ * Argentina Interactive Map
  * @author  Gustavo Adrián Salvini
- * @date 20160322
+ * @date 20160408
  */
 
 function openURwithTarget( url, target ) {
@@ -12,7 +12,6 @@ function openURwithTarget( url, target ) {
 window.onload = function () {
 
 	var s 			= Snap("#svgMap");
-	// s.attr({ width: "100%", height: "100%" });
 
 	var map_x_offset = 106, map_y_offset = 50;
 	var isFullyCompatibleBrowser =  ! ( $.browser.msie || $.browser.msedge || $.browser["windows phone"] );
