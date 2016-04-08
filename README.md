@@ -6,6 +6,16 @@
 
 **ViosMaps** is a development aimed to help you create and render **vector maps divided into regions** (created in the **SVG format**), setting metadata and managing the interactions in an easy way. 
 
+## Motivation
+
+The project started as a humble attempt to render and manage interactions with each region or province for the maps of Italy and Argentina. 
+
+The idea behind opensourcing **ViosMaps** is mainly to be able to teamwork with developers around the world to share ideas and knowledge, generalize the codebase (by better modularization) and to add many great functionalities we can discuss about. It would be very nice if we also write good documentation encouraging more developers to use this resource as a library for their own projects.
+
+## Dependencies
+
+* ViosMaps depends upon the great [Snap.SVG](http://snapsvg.io) library.
+
 ## Real Examples
 
 ### [Interactive Map of Argentina (click to play video)](http://www.youtube.com/watch?v=prYIRGF3WjI)
@@ -27,16 +37,6 @@ Start your local webserver and launch test maps from:
 
 * **2016-04-07**
     * Currently main ViosMaps code is mixed inside those examples. Next steps to take: extract and modularize main functionality transforming it into a library. 
-
-## Dependencies
-
-* It uses the great [Snap.SVG](http://snapsvg.io) library.
-
-## Motivation
-
-The project started as a humble attempt to render and manage interactions with each region or province for the maps of Italy and Argentina. 
-
-The idea behind opensourcing **ViosMaps** is mainly to be able to teamwork with developers around the world to share ideas and knowledge, generalize the codebase (by better modularization) and to add many great functionalities we can discuss about. It would be very nice if we also write good documentation encouraging more developers to use this resource as a library for their own projects.
 
 ## Contributors
 
