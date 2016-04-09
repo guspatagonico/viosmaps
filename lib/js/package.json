@@ -1,16 +1,24 @@
 {
-    "browser": {
-        "jQuery": "./jquery-2.2.2.min.js",
-        "jquery.browser": "./jquery.browser.min.js"
-    },
-    "browserify": {
-        "transform": [ "browserify-shim" ]
-    },
-    "browserify-shim": {
-        "jQuery": "$",
-        "jquery.browser": { 
-            "exports": "null",
-            "depends": [ "jQuery" ]
-        }
+  "browser": {
+    "jQuery": "./jquery-2.2.2.min.js",
+    "jquery.browser": "./jquery.browser.min.js",
+    "snapsvg": "./node_modules/snapsvg/dist/snap.svg-min.js"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "jQuery": "$",
+    "jquery.browser": {
+      "exports": "null",
+      "depends": [
+        "jQuery"
+      ]
     }
+  },
+  "dependencies": {
+    "snapsvg": "^0.4.0"
+  }
 }

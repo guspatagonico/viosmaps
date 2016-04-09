@@ -14,7 +14,11 @@ The idea behind opensourcing **ViosMaps** is mainly to be able to teamwork with 
 
 ## Dependencies
 
-* ViosMaps depends upon the great [Snap.SVG](http://snapsvg.io) library.
+ViosMaps depends upon:
+
+* [Snap.SVG](http://snapsvg.io)
+* [jQuery](http://jquery.org)
+* [jQuery Browser Plugin 0.1.0](https://github.com/gabceb/jquery-browser-plugin)
 
 ## Real Examples
 
@@ -26,17 +30,32 @@ The idea behind opensourcing **ViosMaps** is mainly to be able to teamwork with 
 
 [![Interactive Map of Italy](http://img.youtube.com/vi/CGg1kKw0Qnk/0.jpg)](http://www.youtube.com/watch?v=CGg1kKw0Qnk "Interactive Map of Italy")
 
-## Test Maps
+## Static Test Maps
 
 Start your local webserver and launch test maps from:
 
 * http://{__your_host__}/viosmaps/tests/**argentina.html**
 * http://{__your_host__}/viosmaps/tests/**italia.html**
 
+## Browserify-based Development version:
+
+Start your local webserver and launch test maps from:
+
+* http://{__your_host__}/viosmaps/tests/**browserify-test.html**
+
 ## Notes and ToDo
 
 * **2016-04-07**
     * Currently main ViosMaps code is mixed inside those examples. Next steps to take: extract and modularize main functionality transforming it into a library. 
++ **2016-04-09**
+    * I'm using **Browserify** to build lib/js/static/viosmaps-bundle.js. You can build (**from the lib/js folder**) running:
+        * `browserify viosmaps.js -o static/viosmaps-bundle.js`
+        * Note: To install browserify: 
+            * npm install -g browserify
+    * You can also use **watchify** the same way:
+        * `watchify viosmaps.js -o static/viosmaps-bundle.js`
+        * Note: To install watchify:
+            * npm install -g watchify
 
 ## Contributors
 
