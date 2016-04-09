@@ -1,0 +1,20 @@
+{
+    "browser": {
+        "jQuery": "./jquery-2.2.2.min.js",
+        "jquery.browser": "./jquery.browser.min.js",
+        "Snap": "./snap.svg-min.js"
+    },
+    "browserify": {
+        "transform": [ "browserify-shim" ]
+    },
+    "browserify-shim": {
+        "jQuery": "$",
+        "jquery.browser": { 
+            "exports": "null",
+            "depends": [ "jQuery" ]
+        },
+        "Snap":  {
+            "exports": "global:*"
+        }
+    }
+}
