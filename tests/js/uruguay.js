@@ -29,12 +29,12 @@ window.onload = function () {
 	var defaultRegionURL = '#';
 	var regionsMetadata =
 		{ 
-			'maldonado':	{ text: 'Maldonado', 'label_offset_x': -85, 'label_offset_y': -5, 'label_hover_offset_x': 0, 'label_hover_offset_y': 20 },
+			'maldonado':	{ text: 'Maldonado', 'label_offset_x': -85, 'label_offset_y': -10, 'label_hover_offset_x': 0, 'label_hover_offset_y': 20 },
 			'montevideo':	{ text: 'Montevideo', 'url': 'http://montevideovalley.uy/', 'label_offset_x': -80, 'label_offset_y': -10,'label_hover_offset_x': 0, 'label_hover_offset_y': 20  },
 			'canelones':	{ text: 'Canelones', 'label_offset_x': -85, 'label_offset_y': -35 },
 			'san-jose': 	{ text: 'San José', 'rotation': -45, 'label_offset_x': -84, 'label_offset_y': -38 },
 			'rocha':		{ text: 'Rocha', 'label_offset_x': -95, 'label_offset_y': -20 },
-			'lavalleja':	{ text: 'Lavalleja', 'label_offset_x': -100, 'label_offset_y': -40 },
+			'lavalleja':	{ text: 'Lavalleja', 'label_offset_x': -90, 'label_offset_y': -40 },
 			'colonia': 		{ text: 'Colonia', 'label_offset_x': -80, 'label_offset_y': -40 },
 			'florida':		{ text: 'Florida', 'label_offset_x': -100, 'label_offset_y': -25 },
 			'flores':		{ text: 'Flores', 'label_offset_x': -85, 'label_offset_y': -30 },
@@ -48,34 +48,6 @@ window.onload = function () {
 			'rivera':		{ text: 'Rivera', 'label_offset_x': -80, 'label_offset_y': -30 },
 			'salto':		{ text: 'Salto', 'label_offset_x': -85, 'label_offset_y': -20 },
 			'artigas':		{ text: 'Artigas', 'label_offset_x': -85, 'label_offset_y': -30 }
-
-			// 'antartida': { 'text': "Antártida (Arg.)", 'url': 'https://es.wikipedia.org/wiki/Ant%C3%A1rtida_Argentina', 'target': '_blank', 'label_offset_x': 50, 'label_offset_y': 0, 'label_hover_offset_x': 30, 'label_hover_offset_y': -10 },
-			// 'malvinas': { 'text': "Islas Malvinas", 'label_offset_x': 0, 'label_offset_y': -20, 'label_hover_offset_x': 10, 'label_hover_offset_y': -10 },
-			// 'buenos-aires': { 'text': "Buenos Aires", 'url': 'https://es.wikipedia.org/wiki/Provincia_de_Buenos_Aires', 'target': '_blank', 'label_offset_x': -2, 'label_offset_y': 0, 'label_hover_offset_x': -5, 'label_hover_offset_y': -20 },
-			// 'caba': { 'text': "", 'url': 'https://es.wikipedia.org/wiki/Buenos_Aires', 'label_offset_x': 60, 'label_offset_y': 10 },
-			// 'caba-big': { 'text': "Capital Federal", 'url': 'https://es.wikipedia.org/wiki/Buenos_Aires', 'target': '_blank', 'label_offset_x': 0, 'label_offset_y': 70, 'label_hover_offset_y': 55 },
-			// 'catamarca': { 'text': "Catamarca", 'label_offset_x': 2, 'label_offset_y': 10, 'rotation': 45 },
-			// 'chaco': { 'text': "Chaco", 'label_offset_x': 12, 'label_offset_y': 28, 'label_hover_offset_x': 7, 'label_hover_offset_y': 10 },
-			// 'chubut': { 'text': "Chubut", 'label_offset_x': -10, 'label_offset_y': 10, 'rotation': -5 },
-			// 'cordoba': { 'text': "Córdoba", 'label_offset_x': -2, 'label_offset_y': 0, 'rotation': 0 },
-			// 'corrientes': { 'text': "Corrientes", 'url': 'https://es.wikipedia.org/wiki/Provincia_de_Corrientes', 'label_offset_x': 10, 'label_offset_y': 10, 'label_hover_offset_x': 95, 'label_hover_offset_y': 20 },
-			// 'entre-rios': { 'text': "Entre Ríos", 'label_offset_x': 20, 'label_offset_y': 10, 'rotation': 0, 'label_hover_offset_x': 100, 'label_hover_offset_y': -20 },
-			// 'formosa': { 'text': "Formosa", 'label_offset_x': 0, 'label_offset_y': 17, 'rotation': 28 },
-			// 'jujuy': { 'text': "Jujuy", 'label_offset_x': 0, 'label_offset_y': 14, 'rotation': 40 },
-			// 'la-pampa': { 'text': "La Pampa", 'label_offset_x': 0, 'label_offset_y': 15, 'rotation': 0 },
-			// 'la-rioja': { 'text': "La Rioja", 'label_offset_x': 0, 'label_offset_y': 0, 'rotation': 45 },
-			// 'mendoza': { 'text': "Mendoza", 'label_offset_x': -5, 'label_offset_y': 10, 'rotation': -50 },
-			// 'misiones': { 'text': "Misiones", 'label_offset_x': 5, 'label_offset_y': 17, 'rotation': -45 },
-			// 'tucuman': { 'text': "Tucumán", 'label_offset_x': 0, 'label_offset_y': 0, 'label_hover_offset_x': 10 , 'label_hover_offset_y': -40 },
-			// 'neuquen': { 'text': "Neuquén", 'label_offset_x': 0, 'label_offset_y': 15, 'rotation': -50 },
-			// 'rio-negro': { 'text': "Río Negro", 'label_offset_x': 0, 'label_offset_y': 25, 'rotation': -3, 'label_hover_offset_x': 20 },
-			// 'salta': { 'text': "Salta", 'label_offset_x': 10, 'label_offset_y': 35, 'label_hover_offset_x': 0, 'label_hover_offset_y': 20 },
-			// 'san-juan': { 'text': "San Juan", 'label_offset_x': -10, 'label_offset_y': 20, 'rotation': 0 },
-			// 'san-luis': { 'text': "San Luis", 'label_offset_x': 8, 'label_offset_y': 10, 'rotation': -90, 'label_hover_offset_x': 0, 'label_hover_offset_y': 5 },
-			// 'santa-cruz': { 'text': "Santa Cruz", 'label_offset_x': 5, 'label_offset_y': -20, 'rotation': -5, 'label_hover_offset_x': 5, 'label_hover_offset_y': -34 },
-			// 'santa-fe': { 'text': "Santa Fe", 'label_offset_x': -4, 'label_offset_y': 10, 'rotation': -75 },
-			// 'santiago-del-estero': { 'text': "Stgo. del Estero", 'label_offset_x': 0, 'label_offset_y': 5, 'rotation': -50 },
-			// 'tierra-del-fuego': { 'text': "Tierra del Fuego", 'label_offset_x': 45, 'label_offset_y': 0, 'rotation': -7, 'label_hover_offset_x': 40, 'label_hover_offset_y': 0 },
 	};
 
 	Snap.plugin( function( Snap, Element, Paper, global ) {
@@ -83,41 +55,6 @@ window.onload = function () {
 			return this.transform( this.transform().localMatrix.toTransformString() + t );
 		};
 	});
-
-	// Snap.plugin( function( Snap, Element, Paper, global ) {
-	// 	Paper.prototype.multitext = function(x, y, txt, max_width, attributes) {
-	// 		var svg = Snap();
-	// 		var abc = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	// 		var temp = svg.text(0, 0, abc);
-	// 		temp.attr(attributes);
-	// 		var letter_width = temp.getBBox().width / abc.length;
-	// 		svg.remove();
-
-	// 		var words = txt.split(" ");
-	// 		var width_so_far = 0, current_line=0, lines=[''];
-	// 		for (var i = 0; i < words.length; i++) {
-
-	// 			var l = words[i].length;
-	// 			if (width_so_far + (l * letter_width) > max_width) {
-	// 				lines.push('');
-	// 				current_line++;
-	// 				width_so_far = 0;
-	// 			}
-	// 			width_so_far += l * letter_width;
-	// 			lines[current_line] += words[i] + " ";
-	// 		}
-
-	// 		var t = this.text(x, y, lines).attr(attributes);
-	// 		t.selectAll("tspan:nth-child(n+2)").attr({
-	// 			dy: "1.2em",
-	// 			x: x
-	// 		});
-
-	// 		return t;
-	// 	};
-	// });
-
-
 
 	Snap.load("assets/uruguay_departments.svg", function (f) {
 
