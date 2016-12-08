@@ -21,14 +21,17 @@ ViosMaps depends upon:
 * [jQuery Browser Plugin 0.1.0](https://github.com/gabceb/jquery-browser-plugin)
 
 ## Real Examples
+### [Interactive Map of Uruguay (click to play video)](https://www.youtube.com/watch?v=EEsdN8URM_Y)
 
-### [Interactive Map of Argentina (click to play video)](http://www.youtube.com/watch?v=prYIRGF3WjI)
+[![Interactive Map of Uruguay](http://img.youtube.com/vi/EEsdN8URM_Y/0.jpg)](https://www.youtube.com/watch?v=EEsdN8URM_Y "Interactive Map of Uruguay")
 
-[![Interactive Map of Argentina](http://img.youtube.com/vi/prYIRGF3WjI/0.jpg)](http://www.youtube.com/watch?v=prYIRGF3WjI "Interactive Map of Argentina")
+### [Interactive Map of Argentina (click to play video)](https://www.youtube.com/watch?v=prYIRGF3WjI)
 
-### [Interactive Map of Italy (click to play video)](http://www.youtube.com/watch?v=CGg1kKw0Qnk)
+[![Interactive Map of Argentina](http://img.youtube.com/vi/prYIRGF3WjI/0.jpg)](https://www.youtube.com/watch?v=prYIRGF3WjI "Interactive Map of Argentina")
 
-[![Interactive Map of Italy](http://img.youtube.com/vi/CGg1kKw0Qnk/0.jpg)](http://www.youtube.com/watch?v=CGg1kKw0Qnk "Interactive Map of Italy")
+### [Interactive Map of Italy (click to play video)](https://www.youtube.com/watch?v=CGg1kKw0Qnk)
+
+[![Interactive Map of Italy](http://img.youtube.com/vi/CGg1kKw0Qnk/0.jpg)](https://www.youtube.com/watch?v=CGg1kKw0Qnk "Interactive Map of Italy")
 
 ## Static Test Maps
 
